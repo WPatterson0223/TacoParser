@@ -68,7 +68,7 @@ namespace LoggingKata
                     }
                 }
             }
-            Console.WriteLine($"the distance between {tacoBell1.Name} and {tacoBell2.Name} is {(distance * 0.00062137119224):0.00}");
+            Console.WriteLine($"The distance between {tacoBell1.Name} and {tacoBell2.Name} is {(distance * 0.00062137119224):0.00} miles");
             // Create a new corA Coordinate with your locA's lat and long
 
             // Now, do another loop on the locations with the scope of your first loop, so you can grab the "destination" location (perhaps: `locB`)
